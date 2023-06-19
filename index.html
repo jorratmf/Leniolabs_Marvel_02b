@@ -1,0 +1,26 @@
+<!-- // Given an array of Marvel characters, create a function that sorts them by release date and then shows the list in HTML format. -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Marvel Characters</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  </head>
+  <body>
+    <h1>Marvel Characters</h1>
+    <section>
+      <button id="reverseBtn" type="button" onclick="reverseOrder()" aria-label="Reverse character order" aria-controls="characters">Reverse order</button>
+    </section>
+    <table cellpadding="10" cellspacing="0" border="3">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Team</th>
+          <th>Release Date</th>
+        </tr>
+      </thead>
+      <tbody id="characters"></tbody>
+    </table>
+    <script src="./app.js"></script>
+  </body>
+</html>
